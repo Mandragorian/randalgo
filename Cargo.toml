@@ -1,0 +1,17 @@
+[package]
+name = "randalgo"
+version = "0.1.0"
+authors = ["mandragore <gkonstandinos@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+num-bigint = "0.2.2"
+num-traits = "0.2.2"
+rand = "0.6.5"
+rayon = "1.0"
+fraction = "0.6.0"
+clap = "2.32.0"
+
+[[bin]]
+name = "mocapi"
+path = "src/mocapi.rs"
